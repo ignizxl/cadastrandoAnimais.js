@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="joão igor dos santos barbosa" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="/Img/logoicon.png" type="image" />
+
+
+    <title>BullsApp</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu navbar navbar-expand-lg">
+            <div class="logo container-fluid">
+                <img src="/Img/icontst.png" alt="logo" />
+                <h1 class="logo">
+                    <a class="navbar-brand" href="index.html">BullsApp</a>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="menu navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="cadastro.html">Cadastrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="linha">
+            <section>
+                <div class="coluna col5 sidebar">
+                    <h3>Localização</h3>
+                    <img src="/Img/mapa.jpg" alt="googlemaps">
+                    <ul class="sem-padding sem-marcador">
+                        <li>Los angeles</li>
+                        <li>Chicago bulls</li>
+                        <li>Califórnia - EUA</li>
+                    </ul>
+                    <h3>Contato direto</h3>
+                    <ul class="sem-padding sem-marcador">
+                        <li>Fone: <strong>(66) 9439-9922</strong></li>
+                        <li>Email: <strong>bullapps@gmail.com</strong></li>
+                        <li>discord: <strong>bullsapp#6685</strong></li>
+                    </ul>
+                </div>
+                <div class="coluna col7 contato">
+                    <h2>Envie uma mensagem</h2>
+                    <form action="">
+                        <label for="nome">Seu nome:</label>
+                        <input type="text" name="nome" id="nome" required />
+                        <label for="email">Seu email:</label>
+                        <input type="email" name="email" id="email" required />
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" id="assunto" required />
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
+                        <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;" />
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="conteudo-extra">
+            <div class="linha">
+                <div class="coluna col7">
+                    <section>
+                        <h2>Método alternativo de contato</h2>
+                        <p>Caso não consiga me encontrar por alguns dos meios acima, possivelmente eu estarei em uma
+                            ilha
+                            deserta em algum lugar do pacífico. Neste caso há duas possibilidades:</p>
+                        <ol>
+                            <li>Enviar um mensagem em uma garrafa</li>
+                            <li>Tentar um sinal de fumaça</li>
+                        </ol>
+                        <p>Mas sinceramente não sei se algum desses métodos será eficiente, tente por sua conta e risco
+                            :D
+                        </p>
+                    </section>
+                </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="linha">
+                <footer>
+                    <div class="coluna col12">
+                        <span>&copy; 2023 - BullsApp </span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/main.js"></script>
+
+</html>

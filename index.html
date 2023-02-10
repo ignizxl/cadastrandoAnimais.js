@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="joão igor dos santos barbosa" />
 	<link rel="stylesheet" href="CSS/style.css" />
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="CSS/reset.css">
-	<title>Cadastro Bovino</title>
+	<link rel="shortcut icon" href="/Img/logoicon.png" type="image" />
+
+
+	<title>BullsApp</title>
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg" style="background-color: #6ff175">
-			<div class="container-fluid">
-				<img src="/Img/icons8-ano-do-boi-48 (1).png" alt="Icone Cabeca boi">
-				<a class="navbar-brand" href="#">Rural Center</a>
+		<nav class="menu navbar navbar-expand-lg">
+			<div class="logo container-fluid">
+				<img src="/Img/icontst.png" alt="logo" title="BullsApp" />
+				<h1 class="logo">
+					<a class="navbar-brand" href="index.html">BullsApp</a>
+				</h1>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
+					<ul class="menu navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="cadastro.html">Cadastro</a>
+							<a class="nav-link active" href="cadastro.html">Cadastrar</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="about.html">Sobre</a>
+							<a class="nav-link active" href="contato.html">Contato</a>
 						</li>
 					</ul>
 				</div>
@@ -49,13 +54,14 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="Img/2001172-farm-rural-hills-nature-country.jpg" class="d-block w-100" alt="Paisagem Rural" />
+					<img src="Img/background9.jpg" class="d-block w-100"
+						alt="Campo verdejante" />
 				</div>
 				<div class="carousel-item">
-					<img src="Img/e02fde07d49ee258cc3f6d1b19207757_XL.jpg" class="d-block w-100" alt="Agricultor" />
+					<img src="Img/background11.jpeg" class="d-block w-100" alt="rebanho de gados" />
 				</div>
 				<div class="carousel-item">
-					<img src="Img/bezerro.jpg" class="d-block w-100" alt="bezerro" />
+					<img src="Img/background12.jpg" class="d-block w-100" alt="campo verde" />
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -71,7 +77,17 @@
 		</div>
 
 	</main>
-	<footer></footer>
+	<footer>
+		<div class="footer">
+			<div class="linha">
+				<footer>
+					<div class="coluna col12">
+						<span>&copy; 2023 - BullsApp </span>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</footer>
 </body>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="JS/main.js"></script>
